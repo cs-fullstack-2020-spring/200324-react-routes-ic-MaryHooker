@@ -1,6 +1,21 @@
 body{
   background-color: rgb(82, 14, 82);
-  color: rgb(241, 192, 200);
+  color: rgb(245, 242, 87);
   text-align: center;
   font-family: serif;
+  font-size: 18px;
+}
+
+.links{
+  color: aqua;
+  padding: 3%;
+  font-size: 20px;
+}
+
+span{
+  color: aqua;
+}
+
+hr{
+  border: 2px solid aqua;
 }
