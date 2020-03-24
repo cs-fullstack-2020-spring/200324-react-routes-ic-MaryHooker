@@ -30,8 +30,9 @@ class DeveloperQuotes extends Component {
                     this.state.quotes.map((quote) =>{
                         return(
                             <div key={quote._id}>
-                                <p><span>Author:</span> {quote.author}</p>
-                                <p><span>Quote:</span> {quote.en}</p>
+                                <p>{quote.en}</p>
+                                <p><span>By:</span> {quote.author}</p>
+                                
                                 <hr/>
                             </div>
                         )
